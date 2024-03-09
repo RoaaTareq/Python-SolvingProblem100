@@ -39,6 +39,16 @@ newlist.append(40)
 thistuple=tuple(newlist)
 print(thistuple)
 
+#find max number by 3 num
+def maxNum(x, y, z):
+    return max(x, y, z)
+
+x = 200
+y = 100
+z = 20
+max_num = maxNum(x, y, z)
+print("The maximum number is:", max_num)
+
 # check key on dic
 thisdic={
     "brand":"Ford",
@@ -48,3 +58,18 @@ thisdic={
 
 if "model" in thisdic:
     print('yes')
+
+
+#creat set with  element
+setlist=(20,30,40)
+print(setlist)
+
+#print number 1 to 5 use loop
+for x in range(1,6) :
+   print(x)
+
+#convert list to set 
+   
+thislist=[1,2,3]
+thisset=set(list)
+print(thisset)
